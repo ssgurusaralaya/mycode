@@ -1,9 +1,7 @@
-# mycode
+# mycode (LAB EXCERCISE)
 Modified by Guru on 13 sept at 18:16
-# mycode (Project Title)
 
-One Paragraph of your project description goes here. Describe what you're trying to do.
-What is the purpose of putting up this repo?
+Training of Python programing & Ansible
 
 ## Getting Started
 
@@ -22,5 +20,5 @@ What things are needed to install the software and how to install them. For now,
 
 ## Authors
 
-* **Your Name** - *Initial work* - [YourWebsite](https://example.com/)
+* **Guru** - *Initial work* - [YourWebsite](https://example.com/)
 
