@@ -6,4 +6,3 @@ proto.extend('dns') # this line will add
                     # 'd', 'n', and 's' to
                     # the end of our list
 print(proto)
-
