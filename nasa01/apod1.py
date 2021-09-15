@@ -15,13 +15,13 @@ def main():
     nasaread = nasaapiobj.json() # parse the JSON blob returned
 
     # Show converted json
-    print(nasaread) # show converted JSON without pprint
-    input('\nThis is converted json. Press ENTER to continue.') # pause for enter
+    #print(nasaread) # show converted JSON without pprint
+    #input('\nThis is converted json. Press ENTER to continue.') # pause for enter
 
     # Show Pretty Print json
     pp(nasaread) # this is pretty print in action
     # pprint.pprint(convertedjson) # if you do a simple import pprint, the result is a long usage
-    input('\nThis is pretty printed JSON. Press ENTER to continue.') # pause for ENTER
+    #input('\nThis is pretty printed JSON. Press ENTER to continue.') # pause for ENTER
 
     # Print the description of the photo we are about to view
     print(nasaread['explanation']) # display the value for the key explanation
@@ -30,6 +30,13 @@ def main():
 
     #input('\nPress ENTER to view this photo of the day') # pause for ENTER
     # webbrowser.open(nasaread['hdurl']) # open in the webbrowser
+
+    choice= input("HD or SD? ").upper()
+
+    if choice == "HD":
+        print("Link to the APOD:", nasaread.get('hdurl',"No HD URL for today!"))
+    else:
+        print("Link to the APOD:", nasaread.get('url'))
 
 main()
 
