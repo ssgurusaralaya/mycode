@@ -1,0 +1,21 @@
+---
+- name: Challenge_Thursday
+  hosts: renamed,!taz
+  connection: ssh
+  gather_facts: no
+  become: yes
+
+  vars:
+     username: "guru"
+
+  tasks:
+  - name: Create a group
+    ansible.builtin.group:
+        name: funkytown
+        state: present
+        #become: true
+
+  - name: make a user
+    ansible.builtin.user:
+            name: "{{ username}}"
+            group: funkytown
