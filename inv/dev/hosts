@@ -20,4 +20,4 @@ sw-2
 ansible_user=admin
 ansible_network_os=eos
 ansible_user=admin
-ansible_ssh_pass=alta3
+
