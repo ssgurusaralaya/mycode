@@ -1,0 +1,17 @@
+Alwyas-On Sandbox: 
+URL = 'https://sandboxapicdc.cisco.com'
+LOGIN = 'admin'
+PASSWORD = 'ciscopsdt'
+
+APIC Product Information:
+https://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/index.html
+
+APIC-EM Rest API:
+https://developer.cisco.com/site/apic-em-rest-api/
+
+ACI API Lab:
+https://developer.cisco.com/learning/modules/intermediate-aci-prog/sbx-intermediate-aci-01_aci-api/step/1
+
+APIC API Configuraiton Guide: 
+https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/2-x/rest_cfg/2_1_x/b_Cisco_APIC_REST_API_Configuration_Guide/b_Cisco_APIC_REST_API_Configuration_Guide_chapter_010.html
+

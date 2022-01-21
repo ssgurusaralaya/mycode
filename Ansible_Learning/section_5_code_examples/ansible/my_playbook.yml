@@ -1,0 +1,10 @@
+---
+- name: LinkedIn Learning Ansible Example
+  connection: network_cli
+  gather_facts: false
+  hosts: ios_devices
+  tasks:
+    - name: backup
+      ios_config:
+        backup: yes
+        
