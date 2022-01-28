@@ -1,5 +1,4 @@
-# mycode (LAB EXCERCISE)
-Modified by Guru on 13 sept at 18:16
+# Modified by Guru on 28 Jan 22 at 18:16
 
 Training of Python programing & Ansible
 
