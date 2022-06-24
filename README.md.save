@@ -17,17 +17,23 @@ What things are needed to install the software and how to install them. For now,
 
 * [Python](https://www.python.org/) - The coding language used
 
-## Updating Git 
+## Authors
+
+Steps for Staging & Commiting
 
 Staging
 
 # When you’ve modified a file and have marked it to go in your next commit, it is considered to be a staged file.
-# Check the status of your Git repository, including files added that are not staged, and files that are staged:
 
 git status
 
-# To stage modified files, use the add command, which you can run multiple times before a commit. If you make subsequent changes that you want to include in the next commit, you must run add again.
-# You can specify the specific file with add:
+# Check the status of your Git repository, including files added that are not staged, and files that are staged:
+
+
+
+# To stage modified files, use the add command, which you can run multiple times before a commit. 
+# If you make subsequent changes that you want to include in the next commit, you must run add again.
+#   You can specify the specific file with add:
 
 git add my_script.py
 
@@ -43,9 +49,10 @@ git add -A
 
 git reset my_script.py
 
-			Commit
+Committing
 
 # Once you have staged your updates, you are ready to commit them, which will record changes you have made to the repository.
+
 # To commit staged files, you’ll run the commit command with your meaningful commit message so that you can track commits:
 
 git commit -m "Commit message"
@@ -58,7 +65,6 @@ git commit -am "Commit message"
 
 git commit --amend -m "New commit message"
 
-## Authors
+
 
 * **Guru** - *Initial work* - [YourWebsite](https://example.com/)
-
